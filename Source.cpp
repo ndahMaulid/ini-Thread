@@ -93,12 +93,12 @@ int main()
     t_odd.join();
     /*
     .join() adalah method dari thread yang berfungsi 
-    miskonsepsi atau error di kode, jika tida pakai ini maka akan error otomatis
+    ngeblockir eksekusi thread jika sudah selesai
     */
     t_even.join();
     /*
     .join() adalah method dari thread yang berfungsi
-    miskonsepsi atau error di kode, jika tida pakai ini maka akan error otomatis
+    ngeblockir eksekusi thread jika sudah selesai
     */
     return 0;
    //kembali ke fitrah
