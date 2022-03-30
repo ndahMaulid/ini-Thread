@@ -19,7 +19,7 @@ condition_variable Kondis;
 int angka = 1;
 // deklarasi variabel angka dan inisialisasi variabel dengan input 1 
 
-void oodThread() 
+void oddThread() 
 //fungsi yang bernama fungsi oddThread
 {
     for (; angka < 20;) 
