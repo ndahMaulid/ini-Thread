@@ -86,11 +86,11 @@ void evenThread()
 int main()
 //fungsi utama yang memberikan nilai balik menurut type datanya. 
 {
-    thread t_ood(oodThread);
+    thread t_odd(oddThread);
     //memanggil fungsi oddThread
     thread t_even(evenThread);
     //memanggil fungsi oddThread
-    t_ood.join();
+    t_odd.join();
     /*
     .join() adalah method dari thread yang berfungsi 
     miskonsepsi atau error di kode, jika tida pakai ini maka akan error otomatis
